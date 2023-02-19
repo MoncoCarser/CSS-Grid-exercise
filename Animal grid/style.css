@@ -11,9 +11,11 @@
     grid-column-end: 3; 
     ylläolevat soi yhdistää seuraavasti: */
     /* grid-column: 1/-1;  ---- 1/-1 tarkoitta,  että green class peittää koko ruudun, vaihda positiiviset numeroksi ja se on maksimi */
+    grid-row-start: span 2;
+}
+
+.red {
     grid-column: span 2;
-    grid-row: 1/3;
-    align-self: start;
 }
 
 .zone {
